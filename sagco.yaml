@@ -1,0 +1,16 @@
+name: sagco-waterstreet-academy
+version: 1.0.0
+mission: >
+  Turn Water Street Oyster Bar menu data into flashcards,
+  quizzes, printable study cards, and a mobile study app.
+agents:
+  flashcard_agent:
+    job: build flashcards
+  quiz_agent:
+    job: build quizzes
+  app_agent:
+    job: build static website
+commands:
+  build: generate flashcards
+  deploy: publish github pages
+  audit: verify menu data
